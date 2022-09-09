@@ -12,7 +12,9 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	/* background-color: #FFDAB9; */
+	background: url(kon.jpeg) no-repeat center center/cover;
+	position: relative;
 	
 }
 .peach-after {
@@ -25,36 +27,41 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background: url(kon.jpeg) no-repeat center center/cover;
+		position: relative;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background: url(kon.jpeg) no-repeat center center/cover;
+		position: relative;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background: url(kon.jpeg) no-repeat center center/cover;
+		position: relative;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background: url(kon.jpeg) no-repeat center center/cover;
+		position: relative;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background: url(kon.jpeg) no-repeat center center/cover;
+		position: relative;
 	}
 }
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #110c55;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #110c55;
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #110c55;
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #110c55;
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #110c55;
 	}
 }
 
